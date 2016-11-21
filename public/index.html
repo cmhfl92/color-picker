@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>HSL Color Picker</h1>
+    <div class="colorsquare">
+      <h1></h1>
+    </div>
+    <h3>hsla(130, 50%, 50%, .5)</h3>
+    <div class="scale">
+      <form>
+        <p>Hue</p>
+      <input name="hue" type="range" min="0" max="360">
+      <p>Saturation</p>
+      <input name="sat" type="range" min="0" max="100">
+      <p>Lighting</p>
+      <input name="light" type="range" min="0" max="100">
+      <p>Alpha</p>
+      <input name="alpha" type="range" min="0.00" max="1.00" step=".01">
+      <!-- <input name="n" type="range" min="1" max="102" value="10"> -->
+      </form>
+    </div>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
