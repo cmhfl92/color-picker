@@ -8,22 +8,34 @@ body {
   flex-direction: column;
   margin: 0;
   font: 16px / 1 sans-serif;
-  background-color: dimgray;
+  background-color: mintcream;
 }
 
 .colorsquare{
-  flex-wrap: wrap;
+
   background-color: hsla(130, 50%, 50%, .5);
   width: 200px;
   height: 200px;
-  border-radius: 1em;
-  background-image: url();
+  border-radius: 2em;
+  padding-top: 10px;
+}
 
+h3 {
+  font-family: 'Muli';
+  color: deeppink;
+  padding-top: 3em;
+}
+
+section {
+  background-image: url('http://il7.picdn.net/shutterstock/videos/37491/thumb/1.jpg');
+  width: 200px;
+  height: 200px;
+  border-radius: 2em;
 }
 
 h1 {
 font-family: 'Open Sans';
-color: #fff;
+color: lightseagreen;
 text-align: center;
 padding-top: 2em;
 }
